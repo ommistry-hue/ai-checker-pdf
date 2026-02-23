@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: ai-checker-pdf
-    runtime: docker
-    plan: free
-    branch: master
-    envVars:
-      - key: PDF_SERVICE_SECRET
-        generateValue: false
